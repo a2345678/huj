@@ -1,0 +1,17 @@
+ <html>
+  <head>
+  <title>Moja strona internetowa</title>
+  </head>
+  <body>
+  <h1>{{ header }}</h1>
+  <p>tekst, {{ jebac }}, tekst,tekst</p>
+  <h2>Podnagłówek</h2>
+  <p>tekst, tekst tekst, {{ sreader }}</p>
+  {% for i in range(sreader) %}
+  </br>
+  {% for n in range(i) %}
+        {{ i }}
+      {% endfor %}
+  {% endfor %}
+  </body>
+</html>
